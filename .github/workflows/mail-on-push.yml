@@ -33,5 +33,5 @@ jobs:
           to: karl.mellikov@gmail.com
           from: karl.mellikov@gmail.com
           secure: true
-          body: workflow for ${{github.repository}} completed successfully! by ${{github.event.pusher.name}} + commit message ${{github.event.head_commit.message}}
+          body: xxworkflow for ${{github.repository}} completed successfully! by ${{github.event.pusher.name}} + commit message ${{github.event.head_commit.message}}
 
