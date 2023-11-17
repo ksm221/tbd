@@ -30,7 +30,7 @@ jobs:
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
           subject: Message from github actions.
-          to: karl.mellikov@gmail.com
+          to: jyri.vaitmaa@gmail.com
           from: karl.mellikov@gmail.com
           secure: true
           body: workflow for ${{github.repository}} completed successfully! by ${{github.event.pusher.name}} + commit message ${{github.event.head_commit.message}}
